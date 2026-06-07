@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { WeddingData } from "../../data/weddingData";
+import { WeddingData } from "../../types/wedding";
 
 interface ClosingProps {
   data: WeddingData;
