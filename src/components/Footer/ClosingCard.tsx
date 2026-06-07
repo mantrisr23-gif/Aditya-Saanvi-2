@@ -59,10 +59,10 @@ export default function Closing({ data }: ClosingProps) {
 
         <div className="text-center mb-10">
           <p style={{ fontFamily: "'Bodoni Moda', serif" }} className="text-[32px] text-[#5c4a3d]">{data.groom}</p>
-          <p style={{ fontFamily: "'Montserrat', sans-serif" }} className="text-[9px] tracking-[2px] uppercase opacity-60 italic">son of Mr. & Mrs. {data.groomParents}</p>
+          <p style={{ fontFamily: "'Montserrat', sans-serif" }} className="text-[9px] tracking-[2px] uppercase opacity-60 italic">son of Mr. & Mrs. {data.family.parents[0].name}</p>
           <span style={{ fontFamily: "'Allura', cursive" }} className="text-[#d4af37] text-[24px] my-2 block">&</span>
           <p style={{ fontFamily: "'Bodoni Moda', serif" }} className="text-[32px] text-[#5c4a3d]">{data.bride}</p>
-          <p style={{ fontFamily: "'Montserrat', sans-serif" }} className="text-[9px] tracking-[2px] uppercase opacity-60 italic">daughter of Mr. & Mrs. {data.brideParents}</p>
+          <p style={{ fontFamily: "'Montserrat', sans-serif" }} className="text-[9px] tracking-[2px] uppercase opacity-60 italic">daughter of Mr. & Mrs. {data.family.parents[1].name}</p>
         </div>
 
         {/* LUXURY HOTEL COUNTDOWN */}
