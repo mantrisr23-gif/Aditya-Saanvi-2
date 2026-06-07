@@ -11,10 +11,8 @@ export interface FamilyMember {
   name: string;
   relation: string;
 }
-```tsx
-    export interface WeddingData {
-      // ... your fields
-    }
+
+export interface WeddingData {
   groom: string;
   bride: string;
   date: string;
@@ -22,7 +20,7 @@ export interface FamilyMember {
   countdownDate: string;
   music: string;
   heroImage: string;
-  envelopeBackground: string; // Add this line
+  envelopeBackground: string;
   metadata: {
     shareTitle: string;
     shareDescription: string;
@@ -35,4 +33,3 @@ export interface FamilyMember {
     blessingMessage: string;
   };
 }
-// ... keep EventDetail and FamilyMember interfaces as they were
