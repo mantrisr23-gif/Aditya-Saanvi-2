@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { WeddingData } from "../../data/weddingData";
+import { WeddingData } from "../../types/wedding";
 
 interface HeroProps {
   data: WeddingData;
