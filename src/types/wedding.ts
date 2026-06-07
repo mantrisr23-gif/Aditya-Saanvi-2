@@ -11,8 +11,10 @@ export interface FamilyMember {
   name: string;
   relation: string;
 }
-
-eexport interface WeddingData {
+```tsx
+    export interface WeddingData {
+      // ... your fields
+    }
   groom: string;
   bride: string;
   date: string;
